@@ -1,0 +1,1602 @@
+<?xml version="1.0" standalone="yes"?>
+
+<_table>
+  <_label>BéDés</_label>
+  <_parent_table>
+    <_table>
+      <_label>Série</_label>
+      <_header>
+        <_field>
+          <_parent>-1</_parent>
+          <_label>Série</_label>
+          <_typeOfField>String</_typeOfField>
+          <_index>0</_index>
+        </_field>
+        <_field>
+          <_parent>-1</_parent>
+          <_label>Auteurs</_label>
+          <_typeOfField>String</_typeOfField>
+          <_index>1</_index>
+        </_field>
+        <_field>
+          <_parent>-1</_parent>
+          <_label>Editeur</_label>
+          <_typeOfField>String</_typeOfField>
+          <_index>2</_index>
+        </_field>
+      </_header>
+      <_enregistrement _key="0">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Divers</_data>
+        <_data _type="String" _inherit="false">-</_data>
+        <_data _type="String" _inherit="false">-</_data>
+      </_enregistrement>
+      <_enregistrement _key="1">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Rapaces</_data>
+        <_data _type="String" _inherit="false">Dufaux - Marini</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="2">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">De Cape et de Crocs</_data>
+        <_data _type="String" _inherit="false">Ayroles - Masbou</_data>
+        <_data _type="String" _inherit="false">Delcourt</_data>
+      </_enregistrement>
+      <_enregistrement _key="3">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Le Chat du Rabbin</_data>
+        <_data _type="String" _inherit="false">Sfar</_data>
+        <_data _type="String" _inherit="false">Poisson Pilote</_data>
+      </_enregistrement>
+      <_enregistrement _key="4">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">La nef des fous</_data>
+        <_data _type="String" _inherit="false">Turf</_data>
+        <_data _type="String" _inherit="false">Terres de Légendes - Delcourt</_data>
+      </_enregistrement>
+      <_enregistrement _key="5">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">batman</_data>
+        <_data _type="String" _inherit="false">-</_data>
+        <_data _type="String" _inherit="false">Comics USA</_data>
+      </_enregistrement>
+      <_enregistrement _key="6">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">DK2 : La Relève</_data>
+        <_data _type="String" _inherit="false">Miller - Varley</_data>
+        <_data _type="String" _inherit="false">Edition USA</_data>
+      </_enregistrement>
+      <_enregistrement _key="7">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">le fléau des DIEUX</_data>
+        <_data _type="String" _inherit="false">Mangin - Gajic</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+      <_enregistrement _key="8">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Plus jamais ça</_data>
+        <_data _type="String" _inherit="false">Vervish - Morvan</_data>
+        <_data _type="String" _inherit="false">Carabas</_data>
+      </_enregistrement>
+      <_enregistrement _key="9">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Sky Doll</_data>
+        <_data _type="String" _inherit="false">Barbucci - Canepa</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+      <_enregistrement _key="10">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Le monde d'Arkadi</_data>
+        <_data _type="String" _inherit="false">Caza</_data>
+        <_data _type="String" _inherit="false">Les Humanoïdes Associés</_data>
+      </_enregistrement>
+      <_enregistrement _key="11">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Une aventure de John Difol</_data>
+        <_data _type="String" _inherit="false">Jodorowsky - Moebius</_data>
+        <_data _type="String" _inherit="false">és</_data>
+      </_enregistrement>
+      <_enregistrement _key="12">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Le Sursis</_data>
+        <_data _type="String" _inherit="false">Gibrat</_data>
+        <_data _type="String" _inherit="false">Aire Libre</_data>
+      </_enregistrement>
+      <_enregistrement _key="13">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Le Scorpion</_data>
+        <_data _type="String" _inherit="false">Marini - Desberg</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="14">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Le matin des suaires brûlés</_data>
+        <_data _type="String" _inherit="false">Lukinburg - Tandiang</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+      <_enregistrement _key="15">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">La Ligue des Gentlemen Extraordinaires</_data>
+        <_data _type="String" _inherit="false">Moore - O'Neil</_data>
+        <_data _type="String" _inherit="false">Editions USA</_data>
+      </_enregistrement>
+      <_enregistrement _key="16">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Péché mortel</_data>
+        <_data _type="String" _inherit="false">Béhé - Toff</_data>
+        <_data _type="String" _inherit="false">Vents d'Ouest</_data>
+      </_enregistrement>
+      <_enregistrement _key="17">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">La caste des Méta-Barons</_data>
+        <_data _type="String" _inherit="false">Jodorowsky - Gimenez</_data>
+        <_data _type="String" _inherit="false">Les Humanoïdes Associés</_data>
+      </_enregistrement>
+      <_enregistrement _key="18">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">L'autre monde</_data>
+        <_data _type="String" _inherit="false">in</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="19">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Slaine</_data>
+        <_data _type="String" _inherit="false">Mills - Bisley</_data>
+        <_data _type="String" _inherit="false">Zenda Editions</_data>
+      </_enregistrement>
+      <_enregistrement _key="20">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Blacksad</_data>
+        <_data _type="String" _inherit="false">Canales - Guarnido</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="21">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">L'Héritage d'Emilie</_data>
+        <_data _type="String" _inherit="false">Magnin</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="22">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Les Terres creuses</_data>
+        <_data _type="String" _inherit="false">L. Schuiten - F. Schuiten</_data>
+        <_data _type="String" _inherit="false">Les Humanoïdes Associés</_data>
+      </_enregistrement>
+      <_enregistrement _key="23">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Les Innommables</_data>
+        <_data _type="String" _inherit="false">Yann - Conrad</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="24">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Grand Vampire</_data>
+        <_data _type="String" _inherit="false">Sfar</_data>
+        <_data _type="String" _inherit="false">Delcourt</_data>
+      </_enregistrement>
+      <_enregistrement _key="25">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Koblenz</_data>
+        <_data _type="String" _inherit="false">Robin</_data>
+        <_data _type="String" _inherit="false">Coll Conquistador - Delcourt</_data>
+      </_enregistrement>
+      <_enregistrement _key="26">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Rouge de Chine</_data>
+        <_data _type="String" _inherit="false">Robin</_data>
+        <_data _type="String" _inherit="false">Coll Conquistador - Delcourt</_data>
+      </_enregistrement>
+      <_enregistrement _key="27">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Xoco</_data>
+        <_data _type="String" _inherit="false">Ledroit - Mosdi</_data>
+        <_data _type="String" _inherit="false">Vents d'Ouest</_data>
+      </_enregistrement>
+      <_enregistrement _key="28">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Green Manor</_data>
+        <_data _type="String" _inherit="false">Bodart - Vehlmann</_data>
+        <_data _type="String" _inherit="false">Humour Libre</_data>
+      </_enregistrement>
+      <_enregistrement _key="29">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Persepolis</_data>
+        <_data _type="String" _inherit="false">Satrapi</_data>
+        <_data _type="String" _inherit="false">L'Association</_data>
+      </_enregistrement>
+      <_enregistrement _key="30">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">La Voie du Samouraï</_data>
+        <_data _type="String" _inherit="false">Marz - Sears</_data>
+        <_data _type="String" _inherit="false">Semic Album</_data>
+      </_enregistrement>
+      <_enregistrement _key="31">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Private Ghost</_data>
+        <_data _type="String" _inherit="false">Crisse - Carrère</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+      <_enregistrement _key="32">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Après l'Incal</_data>
+        <_data _type="String" _inherit="false">Jodorowsky - Moebius</_data>
+        <_data _type="String" _inherit="false">Les Humanoïdes Associés</_data>
+      </_enregistrement>
+      <_enregistrement _key="33">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Le vol du corbeau</_data>
+        <_data _type="String" _inherit="false">Gibrat</_data>
+        <_data _type="String" _inherit="false">Aire Libre</_data>
+      </_enregistrement>
+      <_enregistrement _key="34">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Les contes du Korrigan</_data>
+        <_data _type="String" _inherit="false">Le Breton - Istin - Peynet - Michel</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+      <_enregistrement _key="35">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Les démons d'Alexia</_data>
+        <_data _type="String" _inherit="false">Ers - Dugomier</_data>
+        <_data _type="String" _inherit="false">Dupuis</_data>
+      </_enregistrement>
+      <_enregistrement _key="36">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Terres mécanique</_data>
+        <_data _type="String" _inherit="false">Andreae - Fitou</_data>
+        <_data _type="String" _inherit="false">Un Monde - Casterman</_data>
+      </_enregistrement>
+      <_enregistrement _key="37">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Les Arcanes du Midi-Minuit</_data>
+        <_data _type="String" _inherit="false">Gaudin - Trichet</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+      <_enregistrement _key="38">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">La grippe coloniale</_data>
+        <_data _type="String" _inherit="false">Huo Chao Si - Appollo</_data>
+        <_data _type="String" _inherit="false">Vents d'Ouest</_data>
+      </_enregistrement>
+      <_enregistrement _key="39">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Houpeland</_data>
+        <_data _type="String" _inherit="false">Tronchet</_data>
+        <_data _type="String" _inherit="false">Aire Libre</_data>
+      </_enregistrement>
+      <_enregistrement _key="40">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Fléau</_data>
+        <_data _type="String" _inherit="false">Morvan - Whamo</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="41">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Valérian</_data>
+        <_data _type="String" _inherit="false">Mézières - Christin</_data>
+        <_data _type="String" _inherit="false">Dargaud</_data>
+      </_enregistrement>
+      <_enregistrement _key="42">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">La marque du péché</_data>
+        <_data _type="String" _inherit="false">Trillo - Domingues</_data>
+        <_data _type="String" _inherit="false">Albin Michel</_data>
+      </_enregistrement>
+      <_enregistrement _key="43">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Bidule</_data>
+        <_data _type="String" _inherit="false">Des gens bien</_data>
+        <_data _type="String" _inherit="false">Faut bien</_data>
+      </_enregistrement>
+    </_table>
+  </_parent_table>
+  <_header>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>Vol.</_label>
+      <_typeOfField>Int</_typeOfField>
+      <_index>0</_index>
+    </_field>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>Titre</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>1</_index>
+    </_field>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>Où ?</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>2</_index>
+    </_field>
+    <_field>
+      <_parent>Auteurs</_parent>
+      <_label>Auteurs</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>3</_index>
+    </_field>
+    <_field>
+      <_parent>Editeur</_parent>
+      <_label>Editeur</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>4</_index>
+    </_field>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>A qui?</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>5</_index>
+    </_field>
+  </_header>
+  <_enregistrement _key="0">
+    <_parent>1</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Rapaces I</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="1">
+    <_parent>1</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Rapaces II</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="2">
+    <_parent>1</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Rapaces III</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="3">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le secret du Janissaire</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="4">
+    <_parent>3</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">L'Exode</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">???</_data>
+  </_enregistrement>
+  <_enregistrement _key="5">
+    <_parent>4</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Pluvior 627</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="6">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">l'hachélème que j'aime</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Caza</_data>
+    <_data _type="String" _inherit="false">Les Humanos</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="9">
+    <_parent>5</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Les Fous d'Arkham</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">McKean - Morrison</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="10">
+    <_parent>6</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Tome 1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="11">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">le regard de L'APOCALYPSE</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Gimenez - Dal Pra'</_data>
+    <_data _type="String" _inherit="false">eera</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="12">
+    <_parent>7</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">tant</_data>
+    <_data _type="String" _inherit="false">ain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="13">
+    <_parent>7</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Dies irae</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="14">
+    <_parent>7</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Urbi et orbi</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="15">
+    <_parent>7</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Vae victis</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="16">
+    <_parent>8</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Light city</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="17">
+    <_parent>9</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">La ville jaune</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="18">
+    <_parent>9</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Aqua</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="19">
+    <_parent>10</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Les yeux d'Or-Fé</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Delcourt</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="20">
+    <_parent>10</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Le grand extérieur</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="21">
+    <_parent>10</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Arkadi</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="22">
+    <_parent>10</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">La corne rouge</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="23">
+    <_parent>10</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">Les voyageurs de la Mer Morte</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">n</_data>
+  </_enregistrement>
+  <_enregistrement _key="24">
+    <_parent>10</_parent>
+    <_data _type="Int" _inherit="false">6</_data>
+    <_data _type="String" _inherit="false">Noone</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Delcourt</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="25">
+    <_parent>11</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">L'Incal noir</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="26">
+    <_parent>11</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">L'Incal lumière</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="27">
+    <_parent>11</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">t en bas</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="28">
+    <_parent>11</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Ce qui est en haut</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="29">
+    <_parent>11</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">La cinquième essence (1)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="30">
+    <_parent>11</_parent>
+    <_data _type="Int" _inherit="false">6</_data>
+    <_data _type="String" _inherit="false">La cinquième essence (2)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="31">
+    <_parent>12</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le Sursis (1)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="32">
+    <_parent>12</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Le Sursis (2)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="33">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">L'Etoile du désert</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Desberg - Marini</_data>
+    <_data _type="String" _inherit="false">Dargaud</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="34">
+    <_parent>13</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">La Marque du Diable</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="35">
+    <_parent>13</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Le Secret du Pape</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="36">
+    <_parent>13</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">La Croix de Pierre</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="37">
+    <_parent>14</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Celui qui cherche</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">???</_data>
+  </_enregistrement>
+  <_enregistrement _key="38">
+    <_parent>14</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Le souffle des légendes</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">???</_data>
+  </_enregistrement>
+  <_enregistrement _key="39">
+    <_parent>14</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Au coeur du verger</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">???</_data>
+  </_enregistrement>
+  <_enregistrement _key="40">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">La légende de Robin des Bois -- avec des caractères en plus...</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Larcenet</_data>
+    <_data _type="String" _inherit="false">Poisson Pilote</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="41">
+    <_parent>15</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">La Ligue des Gentlemen Extraordinaires (3)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="42">
+    <_parent>15</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">La Ligue des Gentlemen Extraordinaires (4)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="43">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Là-bas</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Tronchet - Sibran</_data>
+    <_data _type="String" _inherit="false">Aire Libre - Dupuis</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="44">
+    <_parent>16</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le virus du pouvoir</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="45">
+    <_parent>16</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Un scalpel dans la mémoire</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="46">
+    <_parent>16</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Résistances</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="47">
+    <_parent>16</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Autopsie d'un mensonge</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="48">
+    <_parent>17</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Othon le trisaïeul</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="49">
+    <_parent>17</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Honorata la trisaïeule</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="50">
+    <_parent>17</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Agnar le bisaïeul</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="51">
+    <_parent>17</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Oda la bisaïeule</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="52">
+    <_parent>17</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">Tête-D'Acier l'aïeul</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="53">
+    <_parent>18</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le pays roux</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="54">
+    <_parent>18</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">De l'autre côté du ciel</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="55">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Wayne Redlake : 500 fusils</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Lamy - Cailleteau - Duval - Vatine - Rabarot</_data>
+    <_data _type="String" _inherit="false">Coll Conquistador - Delcourt</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="56">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">rande : Adios Palomita</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Lamy - Vatine - Clement - Rabarot</_data>
+    <_data _type="String" _inherit="false">Coll Conquistador - Delcourt</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="57">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Arzach</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Moebius</_data>
+    <_data _type="String" _inherit="false">Les Humanoïdes Associés</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="58">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Les secrets d'un couple heureux</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Wolinski</_data>
+    <_data _type="String" _inherit="false">Albin Michel</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="59">
+    <_parent>19</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le Dieu cornu</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="60">
+    <_parent>20</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">t entre les ombres</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="61">
+    <_parent>21</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le domaine Hatcliff</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="62">
+    <_parent>22</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">NogegoN</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="63">
+    <_parent>23</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Alix - Noni - Tengu</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="64">
+    <_parent>23</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Alix - Noni - Tengu</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="65">
+    <_parent>24</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Mortelles en tête</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">???</_data>
+  </_enregistrement>
+  <_enregistrement _key="66">
+    <_parent>24</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Quai des brunes</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">???</_data>
+  </_enregistrement>
+  <_enregistrement _key="67">
+    <_parent>25</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le désespoir d'une ombre</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="68">
+    <_parent>26</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Ville Dragon</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="69">
+    <_parent>26</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Masques</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="70">
+    <_parent>26</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Zhan Zheng</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="71">
+    <_parent>26</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Chute</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="72">
+    <_parent>27</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Papillon Obsidienne</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="73">
+    <_parent>27</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Notre Seigneur l'Ecorché</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="74">
+    <_parent>4</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Eauxfolles</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="75">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Titania</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Gimenez</_data>
+    <_data _type="String" _inherit="false">SA</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="76">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Accroche toi au balais</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Caza</_data>
+    <_data _type="String" _inherit="false">Les Humanos</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="77">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Scènes de la vie de banlieue</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Caza</_data>
+    <_data _type="String" _inherit="false">Dargaud</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="78">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Accroche toi au balais</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Caza</_data>
+    <_data _type="String" _inherit="false">Les Humanos</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="79">
+    <_parent>25</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Marcher dans Carthage une nuit sans lune</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="80">
+    <_parent>25</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Dernier hiver à Ishiyama</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="81">
+    <_parent>28</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">De l'inconvénient d'être mort</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="82">
+    <_parent>29</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Persepolis 1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="83">
+    <_parent>29</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Persepolis 2</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="84">
+    <_parent>29</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Persepolis 3</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="85">
+    <_parent>29</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Persepolis 4</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="86">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Shenzhen</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Delisle</_data>
+    <_data _type="String" _inherit="false">L'Association</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="87">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Zapata, en temps de guerre</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Squarzoni</_data>
+    <_data _type="String" _inherit="false">Les Requins Marteaux</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="88">
+    <_parent>30</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">La lame et le vent</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">n</_data>
+  </_enregistrement>
+  <_enregistrement _key="89">
+    <_parent>24</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Cupidon s'en fout</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">???</_data>
+  </_enregistrement>
+  <_enregistrement _key="90">
+    <_parent>15</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">La Ligue des Gentlemen Extraordianaires (1 et 2)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="91">
+    <_parent>15</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">La Ligue des Gentlemen Extraordinaires (1 et 2)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="92">
+    <_parent>31</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Red Label voodoo</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="93">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Le petit monde du Golem</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Sfar</_data>
+    <_data _type="String" _inherit="false">L'Association</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="94">
+    <_parent>32</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le nouveau rêve</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="95">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Opération minuit à Rhodes</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Béhé - Boisset</_data>
+    <_data _type="String" _inherit="false">Vents d'Ouest</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="96">
+    <_parent>33</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le vol du corbeau (1)</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="97">
+    <_parent>19</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Les Armes Sacrées</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="98">
+    <_parent>34</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Les trésors enfouis</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="99">
+    <_parent>1</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Rapaces IV</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">ain</_data>
+  </_enregistrement>
+  <_enregistrement _key="100">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">6</_data>
+    <_data _type="String" _inherit="false">Luna incognita</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="101">
+    <_parent>35</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">L'Héritage</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="102">
+    <_parent>36</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Océanica</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="103">
+    <_parent>36</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Antartica</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Andreae</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="104">
+    <_parent>30</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Du sang dans la neige</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="105">
+    <_parent>20</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Artic Nation</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="106">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">La fille du professeur</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Guibert - Sfar</_data>
+    <_data _type="String" _inherit="false">esso - Dupuis</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="107">
+    <_parent>37</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">L'affaire du Nalta P312</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="108">
+    <_parent>37</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">L'affaire de la ligne II</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="109">
+    <_parent>38</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le retour d'Ulysse</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="110">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">K, une jolie comète</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="false">Flip - Efix</_data>
+    <_data _type="String" _inherit="false">Petit à petit</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="111">
+    <_parent>40</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Conception</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="112">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">La cité des eaux mouvantes</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="113">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">L'Empire des mille planètes</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="114">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">oile</_data>
+    <_data _type="String" _inherit="false">Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="115">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Bienvenue sur Alflolol</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Dargaud 16/22</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="116">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">Les oiseaux du maître</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="117">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">6</_data>
+    <_data _type="String" _inherit="false">L'ambassadeur des ombres</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="118">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">7</_data>
+    <_data _type="String" _inherit="false">Sur les terres truquées</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="119">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">8</_data>
+    <_data _type="String" _inherit="false">de l'équinoxe</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="120">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">9</_data>
+    <_data _type="String" _inherit="false">Métro Chatelet direction Cassiopée</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="121">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">10</_data>
+    <_data _type="String" _inherit="false">Brooklyn station terminus cosmos</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="122">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">11</_data>
+    <_data _type="String" _inherit="false">Les spectres d'Inverloch</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="123">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">12</_data>
+    <_data _type="String" _inherit="false">Les foudres d'Hypsis</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="124">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">13</_data>
+    <_data _type="String" _inherit="false">Sur les frontières</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="125">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">14</_data>
+    <_data _type="String" _inherit="false">Les armes vivantes</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="126">
+    <_parent>41</_parent>
+    <_data _type="Int" _inherit="false">15</_data>
+    <_data _type="String" _inherit="false">Les cercles du pouvoir</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="127">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Mézières et Christin. Avec...</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="false">Mézières - Christin</_data>
+    <_data _type="String" _inherit="false">Dargaud</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="128">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Mézières. De l'autre côté des étoiles</_data>
+    <_data _type="String" _inherit="false">Gr. Riez</_data>
+    <_data _type="String" _inherit="false">Mézières</_data>
+    <_data _type="String" _inherit="false">Dargaud</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="129">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">7</_data>
+    <_data _type="String" _inherit="false">Chasseurs de Chimères</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="130">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Pavillon noir !</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="131">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">L'archipel du danger</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="132">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Le mystère de l'ile étrange</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="133">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">Jean sans lune</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="134">
+    <_parent>42</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Angustia</_data>
+    <_data _type="String" _inherit="false">Nancy</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Alain</_data>
+  </_enregistrement>
+  <_enregistrement _key="135">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Un truc bizarre</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+  <_enregistrement _key="137">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+  <_enregistrement _key="137">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+  <_enregistrement _key="140">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">De ci de là</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+  <_enregistrement _key="140">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">De ci de là</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+  <_enregistrement _key="140">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">De ci de là</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+  <_enregistrement _key="141">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Coucou</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+  <_enregistrement _key="142">
+    <_parent>43</_parent>
+    <_data _type="Int" _inherit="false">13</_data>
+    <_data _type="String" _inherit="false">Un nouveau numéro</_data>
+    <_data _type="String" _inherit="false">Ici</_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="false">Personne</_data>
+  </_enregistrement>
+</_table>
+

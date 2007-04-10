@@ -1,0 +1,40 @@
+#! /bin/csh
+#
+# to dump a windo into a file
+#
+
+# ---- debug -----
+# set echo 
+
+# check number of arg
+#
+if ($# < 1) then
+	echo "usage : $0 [--help] fileame.ext where .ext give type of image"
+	exit(1)
+endif
+
+# check arguments
+#
+
+argcheck:
+switch ($1)
+# help
+case "--help" :
+    echo "usage : $0 [--help] fileame.ext where .ext give type of image"
+    shift
+    goto argcheck
+default :
+    breaksw
+endsw
+
+set filename = $1
+
+xwd -out /tmp/img.tmp.alain
+convert /tmp/img.tmp.alain $filename
+
+    
+
+
+
+
+

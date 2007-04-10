@@ -1,0 +1,1 @@
+-classpath .:/mnt/winD/Java/lib/:/mnt/winD/Java/lib/xml-writer.jar

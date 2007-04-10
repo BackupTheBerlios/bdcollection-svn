@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Old Modification of BDD</title>
+  </head>
+
+  <body>
+    <h1>Old Modification of BDD</h1>
+
+<h2>Actuellement</h2>
+    <p>DONE : Définir une sortie "imprimante".</p>
+    <ul>
+      <li> DONE : Définir un DialogPrint --> to be tested</li>
+      <li> DONE : Implémenter listage par Série</li>
+    </ul>
+    <p>DONE : Définir une nouvelle distance pour vérifier qu'on n'entre pas deux fois le même Enregistrement.<br>
+       DONE : nouvelle distance.<br>
+       Q : quelle thresold??</p>
+    <p>
+      Finir la mise au point de BaseDeDonnee.
+      <li> DONE : il faut une completeTable à partir des deux Tables de Base</li>
+      <li> DONE : pour l'instant il me semble que completeTable est en partie une copie de basicTable et parentTable. Il faudrait sans doute plutôt la voir comme ayant des liens vers ces tables. Est-possible avec les Enregistrements comme ils existent en ce moment??? <br>
+	  <ul>Actuellement :
+	  <li>completeTable.myHeader.theFields[i] = new Field(...)<br>
+	      Or c'est une copie parfaite à chaque fois (label, typeOfField, parent). Le rank peut poser problème.<br>
+		-> changer le rank et faire lien pour les autres ?</li>
+	  <li>completeTable.listEnregistrement[i] = new Enregistrement( completeHeader ). <br>
+	      key = key from basicTable...Enregistrement, data = new data, avec ou sans inherit (sans si Field de parent, comme basic..Enregistrement si vient de basicTable). En fait, l'index (rang dans le tableau data[]) n'est sans doute pas celui d'origine. Pb???<br></li>
+	  <li>--> completeTable aurait un nouveau Header avec des nouveaux Fields (ayant un rank propre différent de ceux d'origine) mais ou les valeurs des champs serait ceux des Field d'origine. De même pour les enregistrements, on pourrait peut-être faire que les donnée soient en fait ceux des Enregistrements d'origine?, avec des index différents.</li></ul>
+	  <ul>Quant à la 'key' des Enregistrements, elle continuerait à être celle des basic..Enregistrement. <b>Ces 'key' sont-elles vraiment utiles ??</b><br>
+	    --> <b>OUI</b> pour supprimer les éléments!
+	    <br>DONE :
+	    <li> DONE and INTEGRATED : Field( int p_rank, Field p_field) où on partagerait label, typeOfField, parent) mais pas rank.</li>
+	    <li> DONE and INTEGRATED : Enregistrement.add( int p_index, Enregistrement p_srcEnr, int p_srcIndex ) qui copierait le data de la source (en position p_srcIndex) dans le nouveau.</li></ul>
+      </li>
+      <li> DONE : Ajouter une donnée (parent ou basic ou complete)<br>
+      -->Action explicite dans PopupMenuBDD<br>
+      -->Action implicite (avec Table courante) dans PopupMenuTable</li>
+      <li> DONE : Modifier une donnée (parent ou basic ou complete).<br>
+      Les tables sont re-affichées par Table.changedData() (ce qui modifier la taille des colonnes dans JTableData => plus maintenant) MAIS les données de completeTable qui sont liée au champs de parentTable ne sont pas modifiées. La même chose se passe quand on modifie dans basic (-> et pas dans complete)<br>
+      DONE : il me semble que dans DialogEdit on cree un nouveau CellStr qui est lui modifié alors que le CellStr du départ est tout simplement laissé là ????<br>
+      --> CellStr a maintenant un StringBuffer.</li>
+      <li> DONE : Supprimer une donnée (parent ou basic ou complete).<br>
+      --> Quand parent, on met à jour les parent (et les fields pour complete) des autres tables...</li>
+      <li> DONE : pour sauvegarder il faudra peut-être faire l'opération inverse... Ou mettre à jour parentTable et basicTable en parallèle aux modifications de completeTable.<br>
+      On va plutôt essayer de maintenir en parallèle, vu que les données sont/seront partagées.</li>
+      <li> DONE : Charger une base de donnée... Attention à sauvegarder l'ancienne.<br>
+DONE : je pense que les BDD sont changées mais pas notre cher JBDD.</li>
+    </p>
+    <p>
+      DONE : Mettre à jour JBDD en conséquence. -> 3 JTables.
+    </p>
+
+    <li> DONE : Quand on rajoute un Enregistrement, il faudrait aussi mettre à jour sa 'key'. (meme si c'est pas important en fait)</li>
+    <li> DONE : Dans DialogEditEnr., quand on edite un Enr, son parent devrait pouvoir être selectionné dans la liste quand on affiche la table Parent.</li>
+    <li> DONE : Comment effacer le parent d'un Enregistrement ? -> Tout le Monde dérive au moins de ParentDefault.</li>
+    <li> DONE : A l'affichage de la nouvelle table après ajout d'un nouvel élément, les dimensions de la table ont changé. -> Je ne vois pas pourquoi!<br>
+=> différence entre changedData et changedStructure.</li>
+    <li> DONE: DialogEditEnregistrement ne va pas chercher le parent possible...</li>
+    <li> DONE: pas de menu sur la Table???</li>
+    <li> DONE: des 'name' pour les composant afin de savoir où on clique quand le popmenu est activé.</li>
+    <li> DONE: pourquoi il faut appuyer sur 'ENTER' pour valider un champs dans DialogEditEnregistrement?<br>=> Ajout d'un DocumentListener.</li>
+
+<h2>Vers des View</h2>
+    <p>
+      Plus tard, on ajoutera une liste de View (Table, qui contient une ref à une des deux tables et backHeader)à la BDD. Cette view sera générée 'dynamiquement' à partir de formule de recherche/filtre ???
+    </p>
+
+    <h2>On se concentre sur les popup + actions</h2>
+    <p>
+      But actuel: savoir comment déclencher les actions grace à la souris sur la plupart des composants. Pour l'instant, il y a un popup dans <code>TestJBBB</code> mais je pense que le but c'est d'en mettre dans d'autres <code>JTruc</code>. Un a été ajouté dans JTable (normalement).
+    </p>
+
+<h2>Les actions</h2>
+    <p>
+      Dans Actions, il faut que les ActionXXX enregistrées ne soient pas des nested classes. C'est comme ça! Revoir la définition des actions, et leur utilisation dans des PopupMenu, des Menu et des touches.
+    </p>    
+    <ul>
+      <li> ActionAddEnregistrement( Frame, JBaseDeDonnees) a besoin d'une View.</li>
+      <li> ActionEditEnregistrement( Frame, JBaseDeDonnee ) a besoin d'un Enregistrement.</li>
+    </ul>
+    <hr>
+    <address><a href="mailto:Alain.Dutech@loria.fr">Alain Dutech</a></address>
+<!-- Created: Wed Apr 28 15:43:33 CEST 2004 -->
+<!-- hhmts start -->
+Last modified: Wed May 19 01:19:06 CEST 2004
+<!-- hhmts end -->
+  </body>
+</html>

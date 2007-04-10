@@ -1,0 +1,32 @@
+#! /bin/csh
+#
+# To compile a java program under collecto
+#
+
+#set echo
+
+# Is JAVA_LOCAL set
+if( $?JAVA_LOCAL != 1 ) then
+  echo "You should set JAVA_LOCAL \!"
+  exit(1)
+endif
+
+# where to find libs
+set JAVA_LIB = "$JAVA_LOCAL/lib"
+# sets CLASSPATH
+set CP_JAVA = "."
+set CP_JAVA = "${CP_JAVA}:${JAVA_LIB}/log4j-1.2.3.jar"
+#set CP_JAVA = "${CP_JAVA}:${JAVA_LIB}/soapkit-0.9.2.jar"
+#set CP_JAVA = "${CP_JAVA}:${JAVA_LIB}/soapmill-0.13.3.jar"
+set CP_JAVA = "${CP_JAVA}:${JAVA_LIB}/xml-writer.jar"
+#set CP_JAVA = "${CP_JAVA}:${JAVA_LIB}/unannoyment-0.3.jar"
+
+echo "javac -classpath $CP_JAVA @listJava.txt $*"
+javac -classpath $CP_JAVA @listJava.txt $*
+
+
+
+
+
+
+

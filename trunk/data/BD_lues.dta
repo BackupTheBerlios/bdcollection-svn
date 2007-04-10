@@ -1,0 +1,311 @@
+<?xml version="1.0" standalone="yes"?>
+
+<_table>
+  <_label>BéDés</_label>
+  <_parent_table>
+    <_table>
+      <_label>Série</_label>
+      <_header>
+        <_field>
+          <_parent>-1</_parent>
+          <_label>Série</_label>
+          <_typeOfField>String</_typeOfField>
+          <_index>0</_index>
+        </_field>
+        <_field>
+          <_parent>-1</_parent>
+          <_label>Auteurs</_label>
+          <_typeOfField>String</_typeOfField>
+          <_index>1</_index>
+        </_field>
+        <_field>
+          <_parent>-1</_parent>
+          <_label>Editeur</_label>
+          <_typeOfField>String</_typeOfField>
+          <_index>2</_index>
+        </_field>
+      </_header>
+      <_enregistrement _key="0">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Divers</_data>
+        <_data _type="String" _inherit="false">-</_data>
+        <_data _type="String" _inherit="false">-</_data>
+      </_enregistrement>
+      <_enregistrement _key="1">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Alvin Norge</_data>
+        <_data _type="String" _inherit="false">Chris - Lamquet</_data>
+        <_data _type="String" _inherit="false">Troisème Vague - Lombard</_data>
+      </_enregistrement>
+      <_enregistrement _key="2">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Carnets d'Orient</_data>
+        <_data _type="String" _inherit="false">Ferrandez</_data>
+        <_data _type="String" _inherit="false">Studio - A suivre - Casterman</_data>
+      </_enregistrement>
+      <_enregistrement _key="3">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Le Photographe</_data>
+        <_data _type="String" _inherit="false">Guibert - Lefèvre - Lemercier</_data>
+        <_data _type="String" _inherit="false">Aire Libre - Dupuis</_data>
+      </_enregistrement>
+      <_enregistrement _key="4">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Mycroft Inquisiteur</_data>
+        <_data _type="String" _inherit="false">Arleston - Latil - Manini</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+      <_enregistrement _key="5">
+        <_parent>-1</_parent>
+        <_data _type="String" _inherit="false">Nemesis</_data>
+        <_data _type="String" _inherit="false">Ange - Janolle - Van Den Abeele</_data>
+        <_data _type="String" _inherit="false">Soleil</_data>
+      </_enregistrement>
+    </_table>
+  </_parent_table>
+  <_header>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>Vol.</_label>
+      <_typeOfField>Int</_typeOfField>
+      <_index>0</_index>
+    </_field>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>Titre</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>1</_index>
+    </_field>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>Où ?</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>2</_index>
+    </_field>
+    <_field>
+      <_parent>Auteurs</_parent>
+      <_label>Auteurs</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>3</_index>
+    </_field>
+    <_field>
+      <_parent>Editeur</_parent>
+      <_label>Editeur</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>4</_index>
+    </_field>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>A qui?</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>5</_index>
+    </_field>
+    <_field>
+      <_parent>-1</_parent>
+      <_label>Commentaires</_label>
+      <_typeOfField>String</_typeOfField>
+      <_index>6</_index>
+    </_field>
+  </_header>
+  <_enregistrement _key="0">
+    <_parent>1</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">@enfer.Zcom</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">-</_data>
+  </_enregistrement>
+  <_enregistrement _key="1">
+    <_parent>1</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Morphing amer</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">-</_data>
+  </_enregistrement>
+  <_enregistrement _key="2">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Incertain silence</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="false">Ayroles</_data>
+    <_data _type="String" _inherit="false">L'Association</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Un artiste peintre silencieux dans une amérique des années 30 ou 50.</_data>
+  </_enregistrement>
+  <_enregistrement _key="3">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">5</_data>
+    <_data _type="String" _inherit="false">Le cimetière des Princesses</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Excellent. Une jeune fille sur les traces d'un orientaliste du 19ème dans l'Algérie de 1954.</_data>
+  </_enregistrement>
+  <_enregistrement _key="4">
+    <_parent>3</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Le Photographe (1)</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Excellent. Mélange de photos et dessins lors d'un convoi MSF vers l'Afghanistan en 1986.</_data>
+  </_enregistrement>
+  <_enregistrement _key="5">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Djemilah</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Excellent. Le début de l'histoire, 1830...</_data>
+  </_enregistrement>
+  <_enregistrement _key="6">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Les fils du sud</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Excellent. Vers 1900.</_data>
+  </_enregistrement>
+  <_enregistrement _key="7">
+    <_parent>2</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Le centenaire</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">1930, le centenaire de l'Algérie Française.</_data>
+  </_enregistrement>
+  <_enregistrement _key="8">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Planète lointaine</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="false">Li-An</_data>
+    <_data _type="String" _inherit="false">Delcourt</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Très bonne histoire, on sent l'inspiration Moebius.</_data>
+  </_enregistrement>
+  <_enregistrement _key="9">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Le der des ders.</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="false">Daeninckx - Tardi</_data>
+    <_data _type="String" _inherit="false">Casterman</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Histoire noire d'un privé après la grande guerre.</_data>
+  </_enregistrement>
+  <_enregistrement _key="10">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Les sentiers de la perdition</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="false">Collins - Rayner</_data>
+    <_data _type="String" _inherit="false">Delcourt</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Prohibition, la venageance d'une première gachette et de son fils. Un peu cliché.</_data>
+  </_enregistrement>
+  <_enregistrement _key="11">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Pilules bleues</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="false">Peeters</_data>
+    <_data _type="String" _inherit="false">Atrabile</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Excellent. En suisse, quasi autobiograpiqhe d'un mec avec une fille et son enfant HIV.</_data>
+  </_enregistrement>
+  <_enregistrement _key="12">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">From Hell</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="false">Moore - Campbell</_data>
+    <_data _type="String" _inherit="false">Delcourt</_data>
+    <_data _type="String" _inherit="false">Manu</_data>
+    <_data _type="String" _inherit="false">Jack l'éventreur</_data>
+  </_enregistrement>
+  <_enregistrement _key="13">
+    <_parent>0</_parent>
+    <_data _type="Int" _inherit="false">-1</_data>
+    <_data _type="String" _inherit="false">Bloodline</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="false">Ange - Vardena(?)</_data>
+    <_data _type="String" _inherit="false">?</_data>
+    <_data _type="String" _inherit="false">Zozo</_data>
+    <_data _type="String" _inherit="false">Noir et Blanc, jeunes gens "différents"</_data>
+  </_enregistrement>
+  <_enregistrement _key="14">
+    <_parent>4</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Une fragrance de cadavre</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">Enquète policière intéressante sur monde sans techno</_data>
+  </_enregistrement>
+  <_enregistrement _key="15">
+    <_parent>4</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">La bête d'Ecume</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="true">-1</_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">Histoire intéressante</_data>
+  </_enregistrement>
+  <_enregistrement _key="16">
+    <_parent>5</_parent>
+    <_data _type="Int" _inherit="false">1</_data>
+    <_data _type="String" _inherit="false">Level eleven</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">Bonne histoire mêlant flic de NY et 'X-files', perso sympa</_data>
+  </_enregistrement>
+  <_enregistrement _key="17">
+    <_parent>5</_parent>
+    <_data _type="Int" _inherit="false">2</_data>
+    <_data _type="String" _inherit="false">Babalon working</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">cf 1</_data>
+  </_enregistrement>
+  <_enregistrement _key="18">
+    <_parent>5</_parent>
+    <_data _type="Int" _inherit="false">3</_data>
+    <_data _type="String" _inherit="false">Critical mass</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">cf 1</_data>
+  </_enregistrement>
+  <_enregistrement _key="19">
+    <_parent>5</_parent>
+    <_data _type="Int" _inherit="false">4</_data>
+    <_data _type="String" _inherit="false">Nanotech</_data>
+    <_data _type="String" _inherit="false">-</_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="true"></_data>
+    <_data _type="String" _inherit="false">AGOS</_data>
+    <_data _type="String" _inherit="false">cf 1, les dessins se relachent un peu</_data>
+  </_enregistrement>
+</_table>
+

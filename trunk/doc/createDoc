@@ -1,0 +1,1 @@
+javadoc -d ../doc -stylesheetfile myStylesheet.css -tag warning:a:"Warning:" -tag todo:a:"To do:" -overview ../src/overview.html -private -sourcepath ../src collector.data collector.gui collector.control tools
