@@ -119,15 +119,22 @@ public class PDFWriter {
         Table datatable = new Table( nbCol );
         
         int headerwidths[] = new int[nbCol];
-        for( int i=0; i<nbCol; i++ ) {
-            headerwidths[i] = 1;
+        // PB width depends on something external....
+        for( int i=0; i<nbCol; i++) {
+        	headerwidths[i] = 1;
         }
+        // Could have been used for smaller collection
+        //headerwidths[0] = 1; // N° vol
+        //headerwidths[1] = 9; // Titre
+        //headerwidths[2] = 4; // Auteur
+        //headerwidths[3] = 2; // Ou?
+        
         datatable.setWidths(headerwidths);
         datatable.setWidth(100);
-        datatable.setPadding(3);
+        datatable.setPadding(1);
         
         // cell for header, with grey background
-        datatable.setDefaultCellBorderWidth(2);
+        datatable.setDefaultCellBorderWidth(1);
         datatable.setDefaultHorizontalAlignment( Element.ALIGN_CENTER);
 
         Field tmpField;
