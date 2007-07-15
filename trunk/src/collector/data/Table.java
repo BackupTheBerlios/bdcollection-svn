@@ -40,7 +40,7 @@ implements Element, SortTableModel
     /** type is common for all Enregistrement */
     final static String typeElement = Element.typeTable;
     /** it has also a label for name */
-    String label;
+    protected String label;
     
     
     /** Header */
@@ -66,6 +66,7 @@ implements Element, SortTableModel
         maxKey = 0;
         
         parent = null;
+        
         // TableModel
         changedStructure();
     }

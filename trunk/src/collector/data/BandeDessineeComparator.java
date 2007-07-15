@@ -9,14 +9,14 @@ package collector.data;
 import java.util.Comparator;
 /**
  * Comparison of Two Enregistrement based on the data situated at the 
- * indexes 'Série', 'Vol' and 'Title'.
+ * indexes 'SÃ©rie', 'Vol' and 'Title'.
  * SPECIFIC for BandesDessinees.
  * @author dutech
  */
 public class BandeDessineeComparator
 implements Comparator
 {
-    final String labelSerie = new String("Série");
+    final String labelSerie = new String("SÃ©rie");
     final String labelVolume = new String("Vol.");
     final String labelTitle = new String( "Titre");
     

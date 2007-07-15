@@ -1,72 +1,104 @@
 En cours
 ---------------------------------------
-- imprimer en triant par sÈrie ++
-  - si table avec parent
-  - faire set avec bon Field (SÈrie)
-  - pour chaque sÈrie, faire une recherche => view
-    - trier cette view
-    - afficher que les bonnes colonnes.
+- les choses √† param√©trer
+  * o√π sauvegarder ces donn√©es ?
+    * On utilise les Preferences de Java
+    [ valeurs par d√©faut qui sont remplac√©es par des valeurs de session ?
+    [ sauver les valeurs par d√©faut
+    [ dans les attributs des tables ?
+  - param
+    - nom des Tabs
+      - Table : nom des Tables
+        - complete <- label Database
+      - view : changer nom de view ??
+      - menu : tenir compte du nom des Tables.
+    - les views en cours
+      - m√©moriser / s√©rialiser les SearchOperator et SearchedElement
+    - une Pr√©f√©rence par JTableData (unique name ?)
+      - marche pas encore tr√®s bien quand on commence sans BDD
+   	  - changer les pr√©ferences avec le fichier.
+   	    - et remonter jusqu'√† JFrame (TestBDD)
+      - pour chaque table, un noeud avec
+      	* ordre
+      	* et largeur des colonnes
+      - quand on "tue" une View, ne pas oublier d'enlever les pr√©f√©rences.
+        + pour l'instant, les View n'ont pas de pr√©f√©rences. 
+      * appeler routine sp√©ciale pour ajouter une gestion des pr√©f√©rences -> initPreferences.
+    * une Pr√©f√©rence par JBaseDeDonnes (unique name ?)
+      * ComponentListener/Adapter pour quand la taille change.
+      * modifier la Preference
+- v√©rifier que les donn√©es ne sont pas corrompues.
+- enlever log4j.config de SVN
+
 
 Use Case
 ---------------------------------------
-* Ajouter une nouvelle SÈrie
+* passage en codage UTF-8 ???
+  * lien vers 2 fichier avec encodage diff√©rents
+* Ajouter une nouvelle S√©rie
   * Check
 * Ajouter une nouvelle BD
   * Check
 - Modifier une BD existante
-  - quand dans une vue, la modification n'est pas rÈaffichÈe de suite
+  - quand dans une vue, la modification n'est pas r√©affich√©e de suite
 * Afficher toutes les infos sur une BD existante
-* DÈtruire une BD
-  * DÈtruire un enregistrement
-* DÈtruire une sÈrie
+* D√©truire une BD
+  * D√©truire un enregistrement
+* D√©truire une s√©rie
   + Que deviennent ses fils ?
-    + attachÈ ‡ Divers
+    + attach√© √† Divers
 * Sauvegarder la liste des BD
-  * il faudrait que le nom actuel de la base soit proposÈ
+  * il faudrait que le nom actuel de la base soit propos√©
 *  Sauvegarder la liste des BD avec un nom choisi
-  * il faudrait que le nom actuel de la base soit proposÈ
+  * il faudrait que le nom actuel de la base soit propos√©
 * [Option] Charger une liste des BD
-- Afficher la liste des SÈries
+- Afficher la liste des S√©ries
   - Changer le nom du Tag 'Parent'
-- Afficher les BD d'une SÈrie
+- Afficher les BD d'une S√©rie
   * par le biais de chercher
   * trouver le Field automatiquement ??? (SPECIFIC indexSerie = 0)
-  * trouver l'index d'un Field de nom donnÈ => dÈj‡ fait.
+  * trouver l'index d'un Field de nom donn√© => d√©j√† fait.
   - sur quelles table?
-- Recherche prÈ-remplie avec la BD courante...
+- Recherche pr√©-remplie avec la BD courante...
   - pour auteur, serie, etc
-- Faire des recherches avec une combinaison de critËres
+- Faire des recherches avec une combinaison de crit√®res
   -> par le biais de chercher
-  - dans quoi est stockÈ le rÈsultat ?
+  - dans quoi est stock√© le r√©sultat ?
 - Colonne/Field
-  - mÈmoriser la taille d'une colonne.
+  - m√©moriser la taille d'une colonne.
   - s'en servir quand on fait un PDF
 - View
   - si provient d'une recherche, afficher la recherche en haut
     - [Option] modifier la recherche...
   - [Option] sauvegarder ?
-  - DÈtruire
-   - Si des view dÈpendent de cette View ?
+  - D√©truire
+   - Si des view d√©pendent de cette View ?
   * Imprimer
-* Imprimer une BD
+- Imprimer une BD
   * format PDF
-    * afficher une table (qui se rÈpËte sur plusieurs pages -> RepeatingTable)
+    * afficher une table (qui se r√©p√®te sur plusieurs pages -> RepeatingTable)
     * afficher des sections faites d'un titre et d'une table
     * afficher le titre du document
-      * rÈpÈter dans header, avec nom de la BDD
+      * r√©p√©ter dans header, avec nom de la BDD
     * afficher le nb de pages
-  - Une table, triÈe ou non, choix des champs.
+  - Une table, tri√©e ou non, choix des champs.
+  - type de tri dans Print?
+    - pour l'instant
+       - no sort : rien
+       - parent/serie = pareil, par s√©rie.
+  * imprimer en triant par s√©rie ++
+  * PDF : g√©rer la taille de la police et des colonnes.
 - Trier
   * Quand on appuie sur une colonne
     => en utilisant les JSortTable de Claude Duguay.
   * Ca modifie 
   ! Dans View, il me semble qu'on sait trier
-  * un truc spÈcial BD : tri par SÈrie + Volume, Divers + Auteur....
+  * un truc sp√©cial BD : tri par S√©rie + Volume, Divers + Auteur....
     - proposer de l'appliquer si View est descendant de TableComplete
 * Quitter
   * Demande si on sauve avant de quitter...
 * Afficher le nom de la base
-  * Titre de la fenÍtre
+  * Titre de la fen√™tre
   . Avant la base
 - Icones 
 - Couverture de la BD
@@ -75,39 +107,39 @@ Use Case
   - charger par FTP
   - sauver par FTP
 - Comparer deux BDD
-* Ajouter des BDs ‡ la suite....
+* Ajouter des BDs √† la suite....
   * que se passe-t-il quand elle est trop proche ?
 
 Les champs
 
-SÈrie: (clef = )
- - SÈrie : CellStr
+S√©rie: (clef = )
+ - S√©rie : CellStr
  - Auteur(s) : CellStr
  - Editeur(s) : CellStr
  - [Option] Commentaires : CellTxt
 
 BD: (clef = )
- - SÈrie : lien vers la sÈrie, 'Divers' par dÈfaut ??
+ - S√©rie : lien vers la s√©rie, 'Divers' par d√©faut ??
  - Titre : CellStr
- - Auteur(s) : CellStr => SÈrie:Auteur
- - Editeur(s) : CellStr => SÈrie:Editeur(s)
- - NumÈro (dans la sÈrie) : CellStr
+ - Auteur(s) : CellStr => S√©rie:Auteur
+ - Editeur(s) : CellStr => S√©rie:Editeur(s)
+ - Num√©ro (dans la s√©rie) : CellStr
  - Proprio : CellStr
  - Lieu : CellStr
  - [Option] Commentaires : CellTxt
- - [Option] RÈsumÈ : CellTxt
+ - [Option] R√©sum√© : CellTxt
 
 Se posent alors plusieurs questions.
 - clef
-   Il y a en plus un champs 'key' qui est unique. Comment on met ‡ jour? On se fait pas chier et il y a un numero maxi pour chaque classe? Mais ca peut dÈpendre de la BDD, donc il faut le sauvegarder (ou le rechercher quand on charge la BDD).
+   Il y a en plus un champs 'key' qui est unique. Comment on met √† jour? On se fait pas chier et il y a un numero maxi pour chaque classe? Mais ca peut dÔøΩpendre de la BDD, donc il faut le sauvegarder (ou le rechercher quand on charge la BDD).
    CellInt qui est alors un autre type de Cell ou simplement un attribut de l'enregistrement (comme c'est le cas en ce moment je crois).
-- Pour une BD/SÈrie, un petit texte court qui rÈsume l'ÈlÈment (et qui peut Ítre utilisÈ dans des menus dÈroulants?).
+- Pour une BD/S√©rie, un petit texte court qui r√©sume l'√©l√©ment (et qui peut √™tre utilis√© dans des menus d√©roulants?).
 - Quels formats utiliser?
   + XML pour le stockage d'information
   - impression
   - [Option] HTML
-  - Ou alors tout XML mais avec des translations ultÈrieures
+  - Ou alors tout XML mais avec des translations ult√©rieures
 - Chercher
-  - Un Enregistrement avec des RegExp, une Table/View... donne comme rÈsultat une autre Table/View...
+  - Un Enregistrement avec des RegExp, une Table/View... donne comme r√©sultat une autre Table/View...
 - Essayer de mieux penser la difference (pour quel usage) de Table et View.
   - Par exemple, pour l'instant n'utiliser que des Tables???
