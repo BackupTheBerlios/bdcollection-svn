@@ -2,8 +2,12 @@
 package collector.gui;
 
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 import java.awt.event.MouseListener;
+import java.util.prefs.Preferences;
 
 import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
@@ -41,7 +45,7 @@ public class JBaseDeDonnees extends JPanel
     /**
      * 
      */
-    private static final long serialVersionUID = 5720116887590712482L;
+    private static final long serialVersionUID = 1L;
     
     /** Where does View begin ? */
     static final int thresoldView = 2;
@@ -70,6 +74,11 @@ public class JBaseDeDonnees extends JPanel
     /** SelectionListener for new Table */
     ListSelectionListener theSelectionListener;
     
+    /** To store preferences : JPanel size */
+    Preferences thePref;
+    static final String KEYWIDTH = "keyPrefWidth";
+    static final String KEYHEIGHT = "keyPrefHeight";
+    
     /**
      * Creation from a BDD.
      */
@@ -81,10 +90,13 @@ public class JBaseDeDonnees extends JPanel
         rootWindow = rootFrame;
         rootTitle = applicationName;
         
-        theBDD = p_BDD;
+        //theBDD = p_BDD;
         theActions = p_actions;
         theActions.attachTo( this );
-        buildGUI();
+        // listen for size change.
+        this.addComponentListener( new MySizeAdapter() );
+        //buildGUI();
+        attachToBDD( p_BDD );
     }
     /**
      * Creation without a BDD.
@@ -99,19 +111,39 @@ public class JBaseDeDonnees extends JPanel
         
         theActions = p_actions;
         theActions.attachTo( this );
+        // listen for size change.
+        this.addComponentListener( new MySizeAdapter() );
         theBDD = null;
+        // set our Preferences root
+    	Preferences ourRoot = Preferences.userNodeForPackage( getClass() );
+    	thePref = ourRoot;
+        buildGUI();
     }
+    
     /**
-     * Attach to a new BDD and recreate new GUI.
+     * Attach to a new BDD, set Preferences and recreate new GUI.
      */
     public void attachToBDD( BaseDeDonnees p_BDD )
     {
         theBDD = p_BDD;
+        
+        // set our Preferences root
+    	Preferences ourRoot = Preferences.userNodeForPackage( getClass() );
+    	thePref = ourRoot.node( theBDD.fileDesc.getPath() );
+    	logger.debug( "prefWidth = " + thePref.getInt(KEYWIDTH, 222));
+    	logger.debug( "prefHeight = " + thePref.getInt(KEYHEIGHT, 444));
+        
         buildGUI();
+        
+        // set up Preferences (for column width)
+        parentJTable.initPreferences( theBDD.fileDesc.getPath());
+        basicJTable.initPreferences( theBDD.fileDesc.getPath());
+        completeJTable.initPreferences( theBDD.fileDesc.getPath());
     }
+    
     /**
      * Build GUI again.
-     */
+     */ 
     public void rebuild()
     {
         buildGUI();
@@ -149,17 +181,20 @@ public class JBaseDeDonnees extends JPanel
                 5) //right
         );
         this.add( theTabbedPane );
-        this.setPreferredSize( new Dimension( 400, 200 ));
-        
-        /* the 3 basic JTables */
-        parentJTable = new JTableData( theBDD.parentTable );
-        theTabbedPane.addTab( "Parent", parentJTable );
-        
-        basicJTable = new JTableData( theBDD.basicTable );
-        theTabbedPane.addTab( "Basic", basicJTable );
-        
-        completeJTable = new JTableData( theBDD.completeTable );
-        theTabbedPane.addTab( "Complete", completeJTable );
+        //this.setPreferredSize( new Dimension( 400, 200 ));
+        this.setPreferredSize( new Dimension( thePref.getInt(KEYWIDTH, 200), thePref.getInt(KEYHEIGHT, 400)));
+  
+        if( theBDD != null ) {
+        	/* the 3 basic JTables */
+        	parentJTable = new JTableData( theBDD.parentTable );
+        	theTabbedPane.addTab( "Parent", parentJTable );
+
+        	basicJTable = new JTableData( theBDD.basicTable );
+        	theTabbedPane.addTab( "Basic", basicJTable );
+
+        	completeJTable = new JTableData( theBDD.completeTable );
+        	theTabbedPane.addTab( "Complete", completeJTable );
+        }
     }
     
     /**
@@ -192,10 +227,11 @@ public class JBaseDeDonnees extends JPanel
         //logger.debug( "theMouseListener = " + theMouseListenerTable.toString() );
         
         // add to the primary tables
-        parentJTable.addMouseListener( theMouseListenerTable );
-        basicJTable.addMouseListener( theMouseListenerTable );
-        completeJTable.addMouseListener( theMouseListenerTable );
-        
+    	if( theBDD != null ) {
+    		parentJTable.addMouseListener( theMouseListenerTable );
+    		basicJTable.addMouseListener( theMouseListenerTable );
+    		completeJTable.addMouseListener( theMouseListenerTable );
+    	}
         theTabbedPane.addMouseListener( theMouseListenerTable );
         super.addMouseListener( theMouseListenerTable );
         //logger.debug( "theMouseListener = " + theMouseListenerTable.toString() );
@@ -218,11 +254,12 @@ public class JBaseDeDonnees extends JPanel
         /* SelectionListener for the Table */
         //theSelectionListener = l;
         
-        // add to the primary tables
-        parentJTable.addSelectionListener( theSelectionListener);
-        //basicJTable.addSelectionListener( theSelectionListener );
-        completeJTable.addSelectionListener( theSelectionListener );
-        
+    	if( theBDD != null ) {
+    		// add to the primary tables
+    		parentJTable.addSelectionListener( theSelectionListener);
+    		//basicJTable.addSelectionListener( theSelectionListener );
+    		completeJTable.addSelectionListener( theSelectionListener );
+    	}
     }
     /**
      * set SelectionListener for later usage.
@@ -305,8 +342,25 @@ public class JBaseDeDonnees extends JPanel
      */
     public Enregistrement getSelectedEnregistrement()
     {
+    	if( theBDD == null ) return null;
         JTableData tmpTable = (JTableData) theTabbedPane.getSelectedComponent();
         return (Enregistrement) tmpTable.selectedEnregistrement;
+    }
+    
+    /**
+     * Listen to change in Size to set update Preference
+     */
+    class MySizeAdapter extends ComponentAdapter
+    {
+		public void componentResized(ComponentEvent e)
+		{
+			//super.componentResized(e);
+			Component c = e.getComponent();
+			logger.debug( "new size= "+c.getWidth() + " x " + c.getHeight());
+			thePref.putInt( KEYWIDTH, c.getWidth());
+			thePref.putInt( KEYHEIGHT, c.getHeight());
+		}
+    	
     }
     
     // ---------- a Private Logger ---------------------
