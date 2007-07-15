@@ -17,6 +17,7 @@ public class Utils {
     public final static String mta = "mta";
     public final static String dta = "dta";
     public final static String txt = "txt";
+    public final static String pdf = "pdf";
 
     /**
      * Get the extension of a file.

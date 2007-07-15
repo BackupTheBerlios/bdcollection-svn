@@ -18,6 +18,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
+import javax.swing.filechooser.FileFilter;
 
 import org.apache.log4j.Logger;
 
@@ -25,6 +26,7 @@ import org.apache.log4j.Logger;
  * Ask for various print options.
  *
  * Screen ou File, Sorted or 'As is'.
+ * File can be '.txt' (TXTFilter) or '.pdf' (PDFFilter).
  *
  * @version 1.0
  * $Date: 2004/05/13$<br>
@@ -47,7 +49,7 @@ public class DialogPrint extends JDialog implements ActionListener
     
     /* kind of file */
     /** raw TXT */
-    public static final int FILE_RAW = 10;
+    public static final int FILE_TXT = 10;
     /** PDF */
     public static final int FILE_PDF = 11;
     
@@ -71,11 +73,17 @@ public class DialogPrint extends JDialog implements ActionListener
     File theFile;
     /** the directory */
     File theDir;
+    /** the kind of chosen File */
+    int theType;
     
     /** to get a fileName */
     JTextField fileTextField;
     /** to edit the fileName */
     JButton editButton;
+    
+    /** the filter for filename */
+    static FileFilter myTXTFilter;
+    static FileFilter myPDFFilter;
     
     /**
      * Creation
@@ -94,6 +102,10 @@ public class DialogPrint extends JDialog implements ActionListener
         fileName = null;
         theFile = null;
         theDir = null;
+        theType = -1;
+    
+        myTXTFilter = new TXTFilter();
+        myPDFFilter = new PDFFilter();
         
         // the content
         setContentPane( buildEntry());
@@ -132,14 +144,21 @@ public class DialogPrint extends JDialog implements ActionListener
     public File getFile()
     {
         return theFile;
-    }/**
+    }
+    /**
      * Ask for sorting method.
      */
     public int getSortMethod()
     {
         return sortChoice;
     }
-    
+    /**
+     * Ask for kind of file.
+     */
+    public int getFileKind()
+    {
+    	return theType;
+    }
     
     /**
      * Builds the DialogPrint GUI.
@@ -201,11 +220,11 @@ public class DialogPrint extends JDialog implements ActionListener
         noSortButton.setSelected(false);
         noSortButton.addActionListener( this );
         sortPanel.add( noSortButton );
-        JRadioButton serieSortButton = new JRadioButton( "Par Série");
+        JRadioButton serieSortButton = new JRadioButton( "Par serie");
         serieSortButton.setActionCommand("serieSortChoice");
         serieSortButton.setSelected(true);
         serieSortButton.addActionListener( this );
-        sortPanel.add( noSortButton );
+        sortPanel.add( serieSortButton );
         JRadioButton parentSortButton = new JRadioButton( "Par Parent");
         parentSortButton.setActionCommand("parentSortChoice");
         parentSortButton.setSelected(false);
@@ -217,6 +236,7 @@ public class DialogPrint extends JDialog implements ActionListener
         ButtonGroup groupSort = new ButtonGroup();
         groupSort.add( noSortButton );
         groupSort.add( parentSortButton );
+        groupSort.add( serieSortButton );
         
         mainPanel.add( sortPanel );
         
@@ -312,15 +332,15 @@ public class DialogPrint extends JDialog implements ActionListener
             // Popup a File Dialog Choser to fill in TextFile
             aFileChooser = new JFileChooser("../data");
         }
-        PrintFilter myPrintFilter = new PrintFilter();
-        // set the right Filter
-        aFileChooser.addChoosableFileFilter( myPrintFilter );
-        aFileChooser.setFileFilter( myPrintFilter );
+        // set the right Filters
+        aFileChooser.addChoosableFileFilter( myTXTFilter );
+        aFileChooser.addChoosableFileFilter( myPDFFilter );
+        aFileChooser.setFileFilter( myPDFFilter );
         // ask the user for a file
         int returnVal = aFileChooser.showSaveDialog( this );
         
         // remove the File Filter
-        aFileChooser.removeChoosableFileFilter( myPrintFilter );
+        //aFileChooser.removeChoosableFileFilter( myPrintFilter );
         
         logger.debug("Choice made ");
         // check it was a valide choice
@@ -330,7 +350,17 @@ public class DialogPrint extends JDialog implements ActionListener
             fileName = aFileChooser.getName( theFile );
             logger.debug( "new file : " + fileName );
             fileTextField.setText( fileName );
-            aFileChooser.
+            
+            // check file type
+            if( myTXTFilter.accept(theFile)) {
+            	theType = FILE_TXT;
+            }
+            else if( myPDFFilter.accept( theFile )) {
+            	theType = FILE_PDF;
+            }
+        }
+        else {
+        	theType = -1;
         }
     }
     
@@ -358,7 +388,7 @@ public class DialogPrint extends JDialog implements ActionListener
      * <p>
      * File recognised as Database: dir, '.txt'.
      */
-    class PrintFilter extends javax.swing.filechooser.FileFilter {
+    class TXTFilter extends javax.swing.filechooser.FileFilter {
         
         /**
          * Filter files.
@@ -388,7 +418,45 @@ public class DialogPrint extends JDialog implements ActionListener
         public String getDescription() {
             return "Text Files *.txt";
         }
-    } // PrintFilter
+    } // TXTFilter
+    
+    /**
+     * Class needed in order to filter files for the JFileChoser.
+     *
+     * <p>
+     * File recognised as Database: dir, '.pdf'.
+     */
+    class PDFFilter extends javax.swing.filechooser.FileFilter {
+        
+        /**
+         * Filter files.
+         *
+         * Return true for directories and '.txt' files
+         */ 
+        public boolean accept(File f) {
+            if (f.isDirectory()) {
+                return true;
+            }
+            
+            String extension = Utils.getExtension(f);
+            if (extension != null) {
+                if (extension.equals( Utils.pdf ) ) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            
+            return false;
+        }
+        
+        /**
+         * The description of this filter.
+         */
+        public String getDescription() {
+            return "PDF Files *.pdf";
+        }
+    } // TXTFilter
     
     // ---------- a Private Logger ---------------------
     private Logger logger;

@@ -55,7 +55,7 @@ public class ActionPrint extends AbstractAction
         putValue( AbstractAction.NAME, new String( "Imprimer" ));
         putValue( AbstractAction.MNEMONIC_KEY, new Integer( KeyEvent.VK_I ) );
         putValue( AbstractAction.ACCELERATOR_KEY, KeyStroke.getKeyStroke( KeyEvent.VK_I, ActionEvent.CTRL_MASK) );
-        putValue( AbstractAction.SHORT_DESCRIPTION, new String( "Imprime une Table ou une View sur l'écran ou dans un fichier." ));
+        putValue( AbstractAction.SHORT_DESCRIPTION, new String( "Imprime une Table ou une View sur l'ï¿½cran ou dans un fichier." ));
         
         theActions = p_actions;
     }
@@ -76,14 +76,19 @@ public class ActionPrint extends AbstractAction
         if (returnVal == DialogPrint.CHOICE_OK) {
             // where to write
             if( theDialog.isFileChosen() ) {
-                try {
-                    FileWriter theWriter = new FileWriter( theDialog.getFile() );
-                    writeData( theWriter, theDialog.getSortMethod() );
-                    theWriter.close();
-                }
-                catch( IOException evt) {
-                    logger.error( e.toString() );
-                }
+            	if( theDialog.getFileKind() == DialogPrint.FILE_PDF ) {
+            		writeDataPDF( theDialog.getFile(), theDialog.getSortMethod());
+            	}
+            	else {
+            		try {
+            			FileWriter theWriter = new FileWriter( theDialog.getFile() );
+            			writeData( theWriter, theDialog.getSortMethod() );
+            			theWriter.close();
+            		}
+            		catch( IOException evt) {
+            			logger.error( e.toString() );
+            		}
+            	}
             }
             else {
                 PrintWriter theWriter = new PrintWriter( System.out );
@@ -113,7 +118,7 @@ public class ActionPrint extends AbstractAction
                 if( table.hasParent() ) {
                     // index of the Field for Serie Name
                     Table parentTable = (Table) table.getParent();
-                    int indexSerie = parentTable.myHeader.getFieldPosition("Série");
+                    int indexSerie = parentTable.myHeader.getFieldPosition("SÃ©rie");
                     
                     // the Choice of Header to be printed
                     Header choiceHeader = new Header();
@@ -121,7 +126,7 @@ public class ActionPrint extends AbstractAction
                     choiceHeader.add( table.myHeader.getField(table.myHeader.getFieldPosition("Vol.")));
                     choiceHeader.add( table.myHeader.getField(table.myHeader.getFieldPosition("Titre")));
                     choiceHeader.add( table.myHeader.getField(table.myHeader.getFieldPosition("Auteurs")));
-                    choiceHeader.add( table.myHeader.getField(table.myHeader.getFieldPosition("Où ?")));
+                    choiceHeader.add( table.myHeader.getField(table.myHeader.getFieldPosition("OÃ¹ ?")));
                     
                     // collect the set of parents 
                     HashSet setParent = new HashSet();

@@ -12,6 +12,8 @@ import javax.swing.KeyStroke;
 
 import org.apache.log4j.Logger;
 
+import collector.data.BaseDeDonnees;
+
 /**
  * ActionLoad that loads a DataBase.
  *
@@ -40,7 +42,7 @@ public class ActionLoad extends AbstractAction
 	putValue( AbstractAction.NAME, new String( "Ouvrir BDD" ));
 	putValue( AbstractAction.MNEMONIC_KEY, new Integer( KeyEvent.VK_O ) );
 	putValue( AbstractAction.ACCELERATOR_KEY, KeyStroke.getKeyStroke( KeyEvent.VK_O, ActionEvent.CTRL_MASK) );
-	putValue( AbstractAction.SHORT_DESCRIPTION, new String( "Charge une nouvelle Base de Donnée en mémoire." ));
+	putValue( AbstractAction.SHORT_DESCRIPTION, new String( "Charge une nouvelle Base de Donnï¿½e en mï¿½moire." ));
 	
 	theActions = p_actions;
     }
@@ -64,7 +66,13 @@ public class ActionLoad extends AbstractAction
 	}
 
 	// create a File Choser
-    JFileChooser aFileChooser = new JFileChooser( theActions.theJBDD.theBDD.fileDesc );
+	JFileChooser aFileChooser;
+	if( theActions.theJBDD.theBDD != null ) {
+		aFileChooser = new JFileChooser( theActions.theJBDD.theBDD.fileDesc );
+	}
+	else {
+		aFileChooser = new JFileChooser();
+	}
 	DatabaseFilter myDatabaseFilter = new DatabaseFilter();
 
 	// set the right Filter
@@ -83,6 +91,9 @@ public class ActionLoad extends AbstractAction
 	    File file = aFileChooser.getSelectedFile();
 
 	    try {
+	    	logger.debug( "Loading : " + file.getAbsolutePath());
+	    	if( theActions.theJBDD.theBDD == null) 
+	    		theActions.theJBDD.theBDD = new BaseDeDonnees();
 		theActions.theJBDD.theBDD.readFromFile( file.getAbsolutePath() );
 		theActions.theFrame.getContentPane().removeAll();
 		// must also add again the MouseListener
