@@ -2,12 +2,12 @@
 <classpath>
 	<classpathentry excluding="sample/|collector/old/|collector/test/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/alain/Windaube/Java/lib/log4j-1.2.3.jar">
+	<classpathentry exported="true" kind="lib" path="/home/alain/Windaube/Java/lib/log4j-1.2.3.jar">
 		<attributes>
 			<attribute value="file:/home/alain/Windaube/Java/jakarta-log4j-1.2.3/docs/api/" name="javadoc_location"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/alain/Windaube/Java/lib/xml-writer.jar"/>
-	<classpathentry kind="lib" path="/home/alain/Windaube/Java/lib/itext-1.4.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/alain/Windaube/Java/lib/xml-writer.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/alain/Windaube/Java/lib/itext-1.4.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

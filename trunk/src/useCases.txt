@@ -1,40 +1,13 @@
 En cours
 ---------------------------------------
-- les choses à paramétrer
-  * où sauvegarder ces données ?
-    * On utilise les Preferences de Java
-    [ valeurs par défaut qui sont remplacées par des valeurs de session ?
-    [ sauver les valeurs par défaut
-    [ dans les attributs des tables ?
-  - param
-    - nom des Tabs
-      - Table : nom des Tables
-        - complete <- label Database
-      - view : changer nom de view ??
-      - menu : tenir compte du nom des Tables.
-    - les views en cours
-      - mémoriser / sérialiser les SearchOperator et SearchedElement
-    - une Préférence par JTableData (unique name ?)
-      - marche pas encore très bien quand on commence sans BDD
-   	  - changer les préferences avec le fichier.
-   	    - et remonter jusqu'à JFrame (TestBDD)
-      - pour chaque table, un noeud avec
-      	* ordre
-      	* et largeur des colonnes
-      - quand on "tue" une View, ne pas oublier d'enlever les préférences.
-        + pour l'instant, les View n'ont pas de préférences. 
-      * appeler routine spéciale pour ajouter une gestion des préférences -> initPreferences.
-    * une Préférence par JBaseDeDonnes (unique name ?)
-      * ComponentListener/Adapter pour quand la taille change.
-      * modifier la Preference
-- vérifier que les données ne sont pas corrompues.
-- enlever log4j.config de SVN
+
+
 
 
 Use Case
 ---------------------------------------
 * passage en codage UTF-8 ???
-  * lien vers 2 fichier avec encodage différents
+  * lien vers 2 fichiers avec encodage différents
 * Ajouter une nouvelle Série
   * Check
 * Ajouter une nouvelle BD
@@ -65,7 +38,7 @@ Use Case
   -> par le biais de chercher
   - dans quoi est stocké le résultat ?
 - Colonne/Field
-  - mémoriser la taille d'une colonne.
+  * mémoriser la taille d'une colonne. => voir Param plus bas
   - s'en servir quand on fait un PDF
 - View
   - si provient d'une recherche, afficher la recherche en haut
@@ -74,6 +47,34 @@ Use Case
   - Détruire
    - Si des view dépendent de cette View ?
   * Imprimer
+- les choses à paramétrer
+  * où sauvegarder ces données ?
+    * On utilise les Preferences de Java
+    [ valeurs par défaut qui sont remplacées par des valeurs de session ?
+    [ sauver les valeurs par défaut
+    [ dans les attributs des tables ?
+  - param
+    - nom des Tabs
+      - Table : nom des Tables
+        - complete <- label Database
+      - view : changer nom de view ??
+      - menu : tenir compte du nom des Tables.
+    - les views en cours
+      - mémoriser / sérialiser les SearchOperator et SearchedElement
+    - une Préférence par JTableData (unique name ?)
+      * marche pas encore très bien quand on commence sans BDD
+   	  - changer les préferences avec le fichier.
+   	    - et remonter jusqu'à JFrame (TestBDD)
+   	    ~> en fait, la position/location de la fenêtre reste stockée à haut niveau (JFrame)
+      * pour chaque table, un noeud avec
+      	* ordre
+      	* et largeur des colonnes
+      - quand on "tue" une View, ne pas oublier d'enlever les préférences.
+        + pour l'instant, les View n'ont pas de préférences. 
+      * appeler routine spéciale pour ajouter une gestion des préférences -> initPreferences.
+    * une Préférence par JBaseDeDonnes (unique name ?)
+      * ComponentListener/Adapter pour quand la taille change.
+      * modifier la Preference
 - Imprimer une BD
   * format PDF
     * afficher une table (qui se répète sur plusieurs pages -> RepeatingTable)
@@ -109,6 +110,12 @@ Use Case
 - Comparer deux BDD
 * Ajouter des BDs à la suite....
   * que se passe-t-il quand elle est trop proche ?
+* enlever log4j.config de SVN
+* vérifier que les données ne sont pas corrompues.
+  * dans la lecture du XML, dans 'characters" (CellFactory) j'ai utilisé un StringBuffer pour
+    collationner tout ce qui est lu entre un 'start' et un 'end'.
+  ? éventuellement le faire pour les Fields
+
 
 Les champs
 

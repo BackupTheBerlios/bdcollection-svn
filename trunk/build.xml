@@ -2,7 +2,10 @@
 
 <!-- Built file pour le projet-->
 <project name="Collector" default="dist" basedir=".">
+	<property name="ver" value="1.0"/>
 	<!-- Les répertoires utilisés -->
+	<property name="dir.install" value="/usr/local/collector">
+	</property>	
 	<property name="dir.dist" value="dist">
 	</property>
 	<property name="dir.bin" value="bin">
@@ -24,7 +27,7 @@
 	<fileset id="files-bin" dir="${dir.bin}">
 		<include name="collector/"/>
 		<include name="tools/"/>
-		<include name="TestJBDD.class"/>
+		<include name="TestJBDD*.class"/>
 	</fileset>
 	<fileset id="files-doc" dir=".">
 		<include name="${dir.doc}/">
@@ -46,7 +49,10 @@
 	<!-- Distribution Classes (généré par Eclipse) -->
 	<target name="jar-bin">
 		<tstamp/>
-		<jar destfile="${dir.dist}/${ant.project.name}_bin_${DSTAMP}.jar">
+		<jar destfile="${dir.dist}/${ant.project.name}.${ver}_bin_${DSTAMP}.jar">
+			<manifest>
+			      <attribute name="Main-Class" value="TestJBDD"/>
+			</manifest>		
 			<fileset refid="files-bin">
 			</fileset>
 		</jar>
@@ -55,7 +61,7 @@
 	<!-- Distribution Sources -->
 	<target name="tar-sources">
 		<tstamp/>
-		<tar destfile="${dir.dist}/${ant.project.name}_src_${DSTAMP}.tar">
+		<tar destfile="${dir.dist}/${ant.project.name}.${ver}_src_${DSTAMP}.tar">
 			<tarfileset dir=".">
 				<include name="${dir.src}/">
 				</include>
@@ -67,14 +73,14 @@
 				</include>
 			</tarfileset>
 		</tar>
-		<gzip zipfile="${dir.dist}/${ant.project.name}_src_${DSTAMP}.tar.gz" src="${dir.dist}/${ant.project.name}_src_${DSTAMP}.tar">
+		<gzip zipfile="${dir.dist}/${ant.project.name}.${ver}_src_${DSTAMP}.tar.gz" src="${dir.dist}/${ant.project.name}.${ver}_src_${DSTAMP}.tar">
 		</gzip>
-		<delete file="${dir.dist}/${ant.project.name}_src_${DSTAMP}.tar">
+		<delete file="${dir.dist}/${ant.project.name}.${ver}_src_${DSTAMP}.tar">
 		</delete>
 	</target>
 	<target name="jar-sources">
 		<tstamp/>
-		<jar destfile="${dir.dist}/${ant.project.name}_src_${DSTAMP}.jar">
+		<jar destfile="${dir.dist}/${ant.project.name}.${ver}_src_${DSTAMP}.jar">
 			<fileset refid="files-src">
 			</fileset>
 			<fileset refid="files-doc">
@@ -101,7 +107,7 @@
 	<!-- Une copie de sauvegarde -->
 	<target name="save-project">
 		<tstamp/>
-		<tar destfile="${dir.dist}/${ant.project.name}_all_${DSTAMP}.tar">
+		<tar destfile="${dir.dist}/${ant.project.name}.${ver}_all_${DSTAMP}.tar">
 			<tarfileset dir=".." id="file-save">
 				<include name="${ant.project.name}/.project"/>
 				<include name="${ant.project.name}/.classpath"/>
@@ -115,13 +121,13 @@
 			</tarfileset>
 		</tar>
 		<bzip2 
-			destfile="${dir.dist}/${ant.project.name}_all_${DSTAMP}.tar.bz2"
-			src="${dir.dist}/${ant.project.name}_all_${DSTAMP}.tar">
+			destfile="${dir.dist}/${ant.project.name}.${ver}_all_${DSTAMP}.tar.bz2"
+			src="${dir.dist}/${ant.project.name}.${ver}_all_${DSTAMP}.tar">
 		</bzip2>
-		<delete file="${dir.dist}/${ant.project.name}_all_${DSTAMP}.tar">
+		<delete file="${dir.dist}/${ant.project.name}.${ver}_all_${DSTAMP}.tar">
 		</delete>
 		<copy 
-			file="${dir.dist}/${ant.project.name}_all_${DSTAMP}.tar.bz2"
+			file="${dir.dist}/${ant.project.name}.${ver}_all_${DSTAMP}.tar.bz2"
 			todir="/mnt/Save"
 			overwrite="true">
 		</copy>
