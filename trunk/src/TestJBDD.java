@@ -165,7 +165,8 @@ class TestJBDD
 		}
 		
 		checkConfig();
-
+		//PropertyConfigurator.configure( "etc/log4j.config" );
+		
 		//Make sure we have nice window decorations.
 		//JFrame.setDefaultLookAndFeelDecorated(true);
 
